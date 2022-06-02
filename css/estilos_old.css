@@ -1,0 +1,323 @@
+*{margin:0;
+padding:0;}
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+body
+{
+font: normal 16px 'Roboto', sans-serif;
+margin : 0px 0px 0px 0px;
+background:#fffbf0;
+width: 70%;
+}
+
+h3 {
+  color: #088A4B;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{
+margin:0 auto;
+max-width: 1000px;
+}
+
+#logo
+{
+	margin: 0 auto;
+	max-width: 1000px;
+	height: 212px;
+	width: 400px;
+	position: relative;
+	left: 400px;
+
+}
+
+#container
+
+{
+margin:0 auto;
+max-width:900px;
+
+}
+#containerr
+
+{
+margin:0 auto;
+max-width:100%;
+
+}
+
+#rc
+{
+position: relative;
+background:#00a0c0;
+color : #060606;
+font-size: 12px;
+height:30px;
+margin:0 auto;
+margin-left:110px;
+text-align : center;
+box-shadow: 0px 0px 20px #cccccc;
+background: -webkit-linear-gradient(#03a9cb, #ccc);
+ padding: 8px 16px;
+ box-shadow:0px 0px 10px #006;
+ border-radius: 8px;
+ font-weight: bold;
+}
+
+
+#rt
+{
+position: relative;
+background:#00a0c0;
+color : #060606;
+font-size: 12px;
+height:30px;
+margin:0 auto;
+margin-left:100px;
+text-align : center;
+box-shadow: 0px 0px 20px #cccccc;
+background: -webkit-linear-gradient(#03a9cb, #ccc);
+ padding: 8px 16px;
+ box-shadow:0px 0px 10px #006;
+ border-radius: 8px;
+ font-weight: bold;
+}
+
+#inc
+{
+position: relative;
+background:#00a0c0;
+color : #060606;
+font-size: 12px;
+height:30px;
+margin:0 auto;
+margin-left:200px;
+text-align : center;
+box-shadow: 0px 0px 20px #cccccc;
+background: -webkit-linear-gradient(#03a9cb, #ccc);
+ padding: 8px 16px;
+ box-shadow:0px 0px 10px #006;
+ border-radius: 8px;
+ font-weight: bold;
+}
+
+#rc
+{
+position: relative;
+background:#00a0c0;
+color : #060606;
+font-size: 12px;
+height:30px;
+margin:0 auto;
+text-align : center;
+box-shadow: 0px 0px 20px #cccccc;
+background: -webkit-linear-gradient(#03a9cb, #ccc);
+ padding: 8px 16px;
+ box-shadow:0px 0px 10px #006;
+ border-radius: 8px;
+ font-weight: bold;
+}
+#casos
+{
+position: relative;
+background:#00a0c0;
+color : #060606;
+font-size: 12px;
+height:30px;
+margin:0 auto;
+text-align : center;
+box-shadow: 0px 0px 20px #cccccc;
+background: -webkit-linear-gradient(#03a9cb, #ccc);
+ padding: 8px 16px;
+ box-shadow:0px 0px 10px #006;
+ border-radius: 8px;
+ font-weight: bold;
+}
+#cierre
+{
+position: relative;
+background:#00a0c0;
+color : #060606;
+font-size: 12px;
+height:30px;
+margin:0 auto;
+text-align : center;
+box-shadow: 0px 0px 20px #cccccc;
+background: -webkit-linear-gradient(#03a9cb, #ccc);
+ padding: 8px 16px;
+ box-shadow:0px 0px 10px #006;
+ border-radius: 8px;
+ font-weight: bold;
+}
+
+footer
+{
+	position: relative;
+	top: 20px;
+	color: #060606;
+	font-size: 12px;
+	height: 30px;
+	margin: 0 auto;
+	max-width: 700px;
+	text-align: center;
+	box-shadow: 0px 0px 20px #cccccc;
+	background: -webkit-linear-gradient(#03a9cb, #ccc);
+	border-radius: 8px;
+
+}
+
+/* formulrio */
+
+#tecnicos
+{
+ box-shadow: 0px 0px 20px #999;
+ border-radius:10px;
+ padding: 25px 25px 20px 25px;
+ margin:20px auto 20px auto;
+ width:660px;
+
+}
+#tecnicoss
+{
+ box-shadow: 0px 0px 20px #999;
+ border-radius:10px;
+ padding: 25px 25px 20px 25px;
+ margin:20px auto 20px auto;
+ width:147%;
+
+}
+#tecnicos label
+{
+ width:243px;
+ display: inline-block;
+ font-weight: bold;
+ color:#003;
+ margin-right:20px;
+ text-align:left;
+ margin-bottom:10px;
+}
+#tecnicos input[type='text'], #tecnicos input[type='tel'], #tecnicos input[type='email'],#tecnicos input[type='password']
+{
+
+ width: 310px;
+ height:25px;
+ border: 1px solid #F2F2F2;
+ resize: none;
+ box-shadow: 0px 0px 10px #44e7e9;
+ border-radius:5px;
+ margin: 5px 0;
+ padding-left:10px;
+
+
+}
+#tecnicos input[type='text']:focus, #tecnicos input[type='tel']:focus, #tecnicos input[type='email']:focus, #tecnicos input[type='password']:focus
+{
+ outline: none;
+ box-shadow: 0px 0px 10px #006;
+ box-sizing: border-box;
+
+
+}
+#tecnicos select
+{
+ width: 310px;
+height:25px;
+ border: 1px solid #44e7e9;
+ resize: none;
+ box-shadow: 0px 0px 20px #D8D8D8;
+border-radius:5px;
+ margin: 5px 0;
+color:#006;
+}
+
+#tecnicos input[type='submit'], input[type='reset']{
+position: relative;
+background:#00a0c0;
+color : #060606;
+font-size: 12px;
+height:30px;
+margin:0 auto;
+text-align : center;
+box-shadow: 0px 0px 20px #cccccc;
+background: -webkit-linear-gradient(#03a9cb, #ccc);
+ padding: 8px 16px;
+ box-shadow:0px 0px 10px #006;
+ border-radius: 8px;
+ font-weight: bold;
+
+}
+
+#tecnicos input[type='textarea'] {
+
+ width: 310px;
+ height:75px;
+ border: 1px solid #F2F2F2;
+ resize: none;
+ box-shadow: 0px 0px 10px #44e7e9;
+ border-radius:5px;
+ margin: 5px 0;
+ padding-left:10px;
+
+}
+
+#datetime, #datetime1, #datetime2, #datetime3, #datetime4, #datetime5 {
+
+width: 310px;
+ height:25px;
+ border: 1px solid #F2F2F2;
+ resize: none;
+ box-shadow: 0px 0px 10px #44e7e9;
+ border-radius:5px;
+ margin: 5px 0;
+ padding-left:10px;
+
+}
+.datetime6{
+
+  width: 170px;
+   height:25px;
+   border: 1px solid #F2F2F2;
+   resize: none;
+   box-shadow: 0px 0px 10px #44e7e9;
+   border-radius:5px;
+   margin: 5px 0;
+   padding-left:10px;
+
+}
+#datetime7{
+
+  width: 70px;
+   height:25px;
+   border: 1px solid #F2F2F2;
+   resize: none;
+   box-shadow: 0px 0px 10px #44e7e9;
+   border-radius:5px;
+   margin: 5px 0;
+   padding-left:10px;
+
+}
+
+#formulario
+{
+ box-shadow: 0px 0px 20px #999;
+ border-radius:10px;
+ padding: 25px 25px 20px 25px;
+ margin:20px auto 20px auto;
+ width:100%;
+
+}
+
+#tabla{
+
+
+  width: 310px;
+  height:25px;
+  border: 1px solid #F2F2F2;
+  resize: none;
+  box-shadow: 0px 0px 10px #44e7e9;
+  border-radius:5px;
+  margin: 5px 0;
+  padding-left:10px;
+}

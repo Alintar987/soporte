@@ -1,0 +1,12 @@
+body{
+
+}
+#logo
+{
+	margin: 0 auto;
+	max-width: 1000px;
+  height: 160px;
+  width: 400px;
+	position: relative;
+	left: 300px;
+}

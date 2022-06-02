@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta name="encoding" charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/estilos.css" />	
+	<title>Registro Tecnicos - Soporte S.A</title>
+
+</head>
+<body>
+	<header>
+			<img src="imagenes/soporte.jpg" id="logo">
+	</header>
+		<section id="container">
+
+				<form name="tecnicos" method="POST" action= "php/registro_tecnico.php" id="tecnicos">
+				
+						<h1> Formulario de registro Tecnicos </h1>
+							
+						<label for="tecnicos"> Tipo de Documento:</label>
+							<select name="tipoid" required>
+								<option value=""></option>
+								<option value="TI">Tarjeta de Identidad</option>
+								<option value="CC">Cédula de Ciudadania</option>
+								<option value="CE">Cédula de Extranjeria</option>
+							</select>
+
+						<label for="tecnicos"> Número de Documento:</label>
+							<input type="text" name="numdoc" size="20" maxlength="20" required >
+						
+						
+						
+								<label for="tecnicos"> Primer Nombre:</label>
+								<input type="text" name="pnombre" size="50" maxlength="50" required >
+								<label for="tecnicos"> Segundo Nombre:</label>
+								<input type="text" name="snombre" size="50" maxlength="50" required >
+								<label for="tecnicos"> Primer Apellido:</label>
+								<input type="text" name="papellido" size="50" maxlength="50" required >
+								<label for="tecnicos"> Segundo Apellido:</label>
+								<input type="text" name="sapellido" size="50" maxlength="50" required >
+								
+						
+					
+						 <label for="tecnicos">Género</label> 
+						 <select name="genero" required>
+						 	<option value=""></option>
+							<option value="masculino">Masculino</option>
+							<option value="femenino">Femenino</option>
+						</select>
+						
+						 <label for="tecnicos"> Estado civil: </label> 
+							<select name="estadocivil" required>
+								<option value=""></option>
+								<option value="soltero">Soltero</option>
+								<option value="casado">Casado</option>
+								<option value="ulibre">Union Libre</option>
+								<option value="viudo">Viudo</option>
+							</select>
+							
+							<label for="tecnicos"> Telefónico de contacto:</label>
+								<input type="tel" name="telefono" size="20" maxlength="20" required >
+							<label for="tecnicos"> Dirección de tu residencia:</label>
+								<input type="text" name="direccion" size="80" maxlength="80" required >
+							<label for="tecnicos"> Correo electrónico</label>
+								<input type="email" name="correo" size="80" maxlength="80" required >
+							<label for="tecnicos"> Cargo</label>
+								<input type="text" name="cargo" size="80" maxlength="80" required >
+								
+							<label for="tecnicos"> Tipo de Veiculo: </label>
+								<input type="text" name="tipvehiculo" size="20" maxlength="80">	
+							
+							<label for="tecnicos">Placa: </label>
+								<input type="text" name="placa" size="20" maxlength="80">
+								
+								<label for="tecnicos">Contraseña: </label>
+								<input type="password" name="contra" size="20" maxlength="80" required>
+								
+						<input type="submit" value="Enviar" /> 
+						<input type="reset" value="Restablecer" />
+						<input id="cierre" type="button" onclick=" location.href='index.html'" value="Regresar " name="regresar" /> 
+				</form>
+	
+
+
+
+
+
+
+				</form> 
+		</section>
+
+		</container>
+				
+
+		<footer>
+			
+				<h1>Soporte S.A</h1>
+
+		</footer>
+
+	</body>
+
+
+
+</html>
+
